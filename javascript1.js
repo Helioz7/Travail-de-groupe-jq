@@ -1,24 +1,24 @@
-
-// cache le paragraphe
+//1
 $(document).ready(function() {
-    $('#show').click(function() {
-        $('#cacher').show();
+    $("#show-btn").click(function() {
+        $("#hidden-paragraph").show();
+    });
+
+    $("#reset-btn").click(function() {
+        $("#hidden-paragraph").hide();
     });
 });
-
-
-// Affichage du paragraphe
+//2
 $(document).ready(function() {
     $("#montre").click(function() {
         $("#visible").toggle();
     });
 
     $("#reset").click(function() {
-        $("#cacher").hide();  
-        $("#visible").show(); 
+        $("#visible").show();
     });
 });
- 
+//3
 $(document).ready(function() {
     $('#paragraph').click(function() {
         $('#toggle').toggle();
