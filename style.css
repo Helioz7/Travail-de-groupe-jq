@@ -79,3 +79,34 @@ small {
     color: inherit;
   }
 }
+
+.carousel-item img {
+  width: 50%;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+  border: #333;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.05);
+}
+
+.carousel-item img {
+  width: 50%;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+  border:solid black;
+  box-shadow: 0 4px 6px rgba(1, 197, 246, 0.975); 
+}
+
+.carousel-item img:hover {
+  transform: scale(1.05);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  font-size: 2rem; /* Increase arrow size */
+  color: black; /* Change arrow color */
+  background: none; /* Remove background */
+  border: none; /* Remove border */
+}

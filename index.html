@@ -34,25 +34,31 @@
   <h3>les 20 méthodes appris en jQUERY.</h3>
 </header>
 
-<container>
-    <div class="container" style="margin-top: -20px;">
-        <div class="row justify-content-center">
-            <div class="col-lg-10 col-md-10 border bg-dark text-white py-5" >
-                <p>Exercice 1:Disparition du paragraphe</p>
-                <hr>
-                <p>En utilisant la méthode SHOW on fait apparaître un paragraphe caché.</p>
-                
-                <button id="show-btn" class="btn btn-primary mb-2">Start</button>
-                <button id="reset-btn" class="btn btn-secondary mb-2">Reset</button>
-                <br>
-               <div class="border" style="height: 50px; border-radius: 20px;">
-                <p id="hidden-paragraph" style="display: none; text-align: center; margin-top: 1%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia deserunt molestias est, obcaecati incidunt veniam.</p>
-               </div>
-            </div>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="pexels-googledeepmind-17483867.jpg" class="d-block mx-auto" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="pexels-googledeepmind-17485680.jpg" class="d-block mx-auto" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="pexels-googledeepmind-17485706.jpg" class="d-block mx-auto" alt="...">
         </div>
     </div>
-</container>
-<hr>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+  
+  <hr>
 
 <container>
     <div class="container" style="margin-top: -20px;">
