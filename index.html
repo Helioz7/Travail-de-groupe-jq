@@ -60,19 +60,19 @@
 
   <hr>
   <container>
-    <div class="container" style="margin-top: -20px;">
+    <div class="container custom-container">
         <div class="row justify-content-center">
-            <div class="col-lg-10 col-md-10 border bg-dark text-white py-5" >
-                <p>Exercice 1:Disparition du paragraphe</p>
+            <div class="col-lg-8 col-md-10 custom-box text-center">
+                <p>Exercice 1: Disparition du paragraphe</p>
                 <hr>
                 <p>En utilisant la méthode SHOW on fait apparaître un paragraphe caché.</p>
-                
-                <button id="show-btn" class="btn btn-primary mb-2">Start</button>
-                <button id="reset-btn" class="btn btn-secondary mb-2">Reset</button>
-                <br>
-               <div class="border" style="height: 50px; border-radius: 20px;">
-                <p id="hidden-paragraph" style="display: none; text-align: center; margin-top: 1%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia deserunt molestias est, obcaecati incidunt veniam.</p>
-               </div>
+                <div class="button-group">
+                    <button id="show-btn" class="btn btn-primary mb-2">Start</button>
+                    <button id="reset-btn" class="btn btn-secondary mb-2">Reset</button>
+                </div>
+                <div class="border-custom">
+                    <p id="hidden-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia deserunt molestias est, obcaecati incidunt veniam.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -80,85 +80,82 @@
 <hr>
 
 <container>
-    <div class="container" style="margin-top: -20px;">
+    <div class="container custom-container">
         <div class="row justify-content-center">
-            <div class="col-lg-10 col-md-10 border bg-dark text-white py-5" >
+            <div class="col-lg-8 col-md-10 custom-box text-center">
                 <p>Exercice 2: Affichage du paragraphe</p>
                 <hr>
                 <p>Lorsqu'on clique dessus, cache un paragraphe visible à la base.</p>
-                
-                <button id="montre" class="btn btn-primary mb-2">Start</button>
-                <button id="reset" class="btn btn-secondary mb-2">Reset</button>
-                <br>
-               <div class="border" style="height: 50px; border-radius: 20px;">
-                <p id="visible" style="text-align: center; margin-top: 1%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia deserunt molestias est, obcaecati incidunt veniam.</p>
-               </div>
-            </div>
-        </div>
-    </div>
-</container>
-
-
-<hr> 
-<container>
-    <div class="container" style="margin-top: -20px;">
-        <div class="row justify-content-center">
-            <div class="col-lg-10 col-md-10 border bg-dark text-white py-5" >
-                <p>Exercice 3: bascule entre l'affichage et la dissimulation d'un paragraphe</p>
-                <hr>
-                <p>lorsqu'on clique dessus, bascule entre l'affichage et la dissimulation d'un paragraphe que vous allez créer. en utilisant la méthode toggle</p>
-                
-                <button id="paragraph" class="btn btn-primary mb-2">Afficher/cacher</button>
-                <br>
-               <div class="border" style="height: 50px; border-radius: 20px;">
-                <p id="toggle" style="text-align: center; margin-top: 1%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia deserunt molestias est, obcaecati incidunt veniam.</p>
-               </div>
-            </div>
-        </div>
-    </div>
-</container>
-
-<hr> 
-<container>
-    <container>
-        <div class="container" style="margin-top: -20px;">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 col-md-10 border bg-dark text-white py-5">
-                    <p>Exercice 4: Cache une image visible</p>
-                    <hr>
-                    <p>Lorsqu'on clique dessus, cache une image visible en 3 secondes</p>
-                    
-                    <button id="hide-image" class="btn btn-primary mb-2">Cacher</button>
-                    <button id="reset-image" class="btn btn-secondary mb-2">Reset</button>
-                    <br>
-                    <div class="border" style="height: auto; border-radius: 20px; overflow: hidden;">
-                        <img id="image4" src="/1.png" alt="" style="display: block; width: 15%;">
-                    </div>
+                <div class="button-group">
+                    <button id="montre" class="btn btn-primary mb-2">Start</button>
+                    <button id="reset" class="btn btn-secondary mb-2">Reset</button>
+                </div>
+                <div class="border-custom">
+                    <p id="visible">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia deserunt molestias est, obcaecati incidunt veniam.</p>
                 </div>
             </div>
         </div>
+    </div>
+</container>
+
+
+<hr> 
+<container>
+    <div class="container custom-container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10 custom-box text-center">
+                <p>Exercice 3: Bascule entre l'affichage et la dissimulation d'un paragraphe</p>
+                <hr>
+                <p>Lorsqu'on clique dessus, bascule entre l'affichage et la dissimulation d'un paragraphe que vous allez créer. En utilisant la méthode toggle.</p>
+                <div class="button-group">
+                    <button id="paragraph" class="btn btn-primary mb-2">Afficher/cacher</button>
+                </div>
+                <div class="border-custom">
+                    <p id="toggle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia deserunt molestias est, obcaecati incidunt veniam.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</container>
+
+<hr> 
+<container>
+    <div class="container custom-container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10 custom-box text-center">
+                <p>Exercice 4: Cache une image visible</p>
+                <hr>
+                <p>Lorsqu'on clique dessus, cache une image visible en 3 secondes</p>
+                <div class="button-group">
+                    <button id="hide-image" class="btn btn-primary mb-2">Cacher</button>
+                    <button id="reset-image" class="btn btn-secondary mb-2">Reset</button>
+                </div>
+                <div class="border-custom">
+                    <img id="image4" src="/1.png" alt="Image to hide" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
     </container>
     <hr> 
 
     <container>
-        <container>
-            <div class="container" style="margin-top: -20px;">
-                <div class="row justify-content-center">
-                    <div class="col-lg-10 col-md-10 border bg-dark text-white py-5">
-                        <p>Exercice 5: Bascule entre l'affichage et la dissimulation d'une image</p>
-                        <hr>
-                        <p>Lorsqu'on clique dessus, bascule entre l'affichage et la dissimulation d'une image que vous avez en 2 secondes</p>
-                        
+        <div class="container custom-container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10 custom-box text-center">
+                    <p>Exercice 5: Bascule entre l'affichage et la dissimulation d'une image</p>
+                    <hr>
+                    <p>Lorsqu'on clique dessus, bascule entre l'affichage et la dissimulation d'une image que vous avez en 2 secondes</p>
+                    <div class="button-group">
                         <button id="toggle-image" class="btn btn-primary mb-2">Basculer</button>
                         <button id="reset-toggle" class="btn btn-secondary mb-2">Reset</button>
-                        <br>
-                        <div class="border" style="height: auto; border-radius: 20px; overflow: hidden;">
-                            <img id="image5" src="/1.png" alt="" style="display: block; width: 15%;">
-                        </div>
+                    </div>
+                    <div class="border-custom">
+                        <img id="image5" src="/1.png" alt="Toggle Image" class="img-fluid">
                     </div>
                 </div>
             </div>
-        </container>
+        </div>
     </container>
     
     

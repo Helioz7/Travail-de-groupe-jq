@@ -110,3 +110,30 @@ small {
   background: none; /* Remove background */
   border: none; /* Remove border */
 }
+
+
+.custom-container {
+  margin-top: -20px;
+}
+.custom-box {
+  background-color: #343a40;
+  color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(1, 197, 246, 0.975); 
+}
+.button-group {
+  margin-bottom: 20px;
+}
+.border-custom {
+  height: auto;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #495057;
+}
+#hidden-paragraph {
+  display: none;
+  text-align: center;
+  margin-top: 10px;
+  color: #f8f9fa;
+}
